@@ -1,15 +1,25 @@
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 # <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="30" width="30"> &nbsp; Homebrew &nbsp; <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="30" width="30">
 [![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 Features, usage and installation instructions are [summarised on the homepage](https://brew.sh). Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is [explained here](https://docs.brew.sh/Formula-Cookbook#homebrew-terminology).
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## What Packages Are Available?
 1. Type `brew search` for a list.
 2. Or visit [formulae.brew.sh](https://formulae.brew.sh) to browse packages online.
 3. Or use `brew search --desc <keyword>` to browse packages from the command line.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## More Documentation
 `brew help`, `man brew` or check [our documentation](https://docs.brew.sh/).
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Troubleshooting
 First, please run `brew update` and `brew doctor`.
@@ -17,6 +27,8 @@ First, please run `brew update` and `brew doctor`.
 Second, read the [Troubleshooting Checklist](https://docs.brew.sh/Troubleshooting).
 
 **If you don't read these it will take us far longer to help you with your problem.**
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Contributing
 [![Azure Pipelines](https://img.shields.io/vso/build/Homebrew/56a87eb4-3180-495a-9117-5ed6c79da737/1.svg)](https://dev.azure.com/Homebrew/Homebrew/_build/latest?definitionId=1)
@@ -31,8 +43,12 @@ Alternatively, for something more substantial, check out one of the issues label
 
 Good luck!
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## Security
 Please report security issues to our [HackerOne](https://hackerone.com/homebrew/).
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Who Are You?
 Homebrew's [Project Leader](https://github.com/Homebrew/homebrew-governance-private/blob/master/GOVERNANCE.md#6-project-leader) is [Mike McQuaid](https://github.com/MikeMcQuaid).
@@ -47,14 +63,20 @@ Homebrew's other current maintainers are [Claudia Pellegrino](https://github.com
 
 Former maintainers with significant contributions include [JCount](https://github.com/jcount), [commitay](https://github.com/commitay), [Dominyk Tiller](https://github.com/DomT4), [Tim Smith](https://github.com/tdsmith), [Baptiste Fontaine](https://github.com/bfontaine), [Xu Cheng](https://github.com/xu-cheng), [Martin Afanasjew](https://github.com/UniqMartin), [Brett Koonce](https://github.com/asparagui), [Charlie Sharpsteen](https://github.com/Sharpie), [Jack Nagel](https://github.com/jacknagel), [Adam Vandenberg](https://github.com/adamv), [Andrew Janke](https://github.com/apjanke), [Alex Dunn](https://github.com/dunn), [neutric](https://github.com/neutric), [Tomasz Pajor](https://github.com/nijikon), [Uladzislau Shablinski](https://github.com/vladshablinsky), [Alyssa Ross](https://github.com/alyssais), [ilovezfs](https://github.com/ilovezfs) and Homebrew's creator: [Max Howell](https://github.com/mxcl).
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## Community
 - [discourse.brew.sh (forum)](https://discourse.brew.sh)
 - [freenode.net\#machomebrew (IRC)](irc://irc.freenode.net/#machomebrew)
 - [@MacHomebrew (Twitter)](https://twitter.com/MacHomebrew)
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## License
 Code is under the [BSD 2-clause "Simplified" License](LICENSE.txt).
 Documentation is under the [Creative Commons Attribution license](https://creativecommons.org/licenses/by/4.0/).
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Donations
 Homebrew is a non-profit project run entirely by unpaid volunteers. We need your funds to pay for software, hardware and hosting around continuous integration and future improvements to the project. Every donation will be spent on making Homebrew better for our users.
@@ -74,6 +96,8 @@ Alternatively, if you'd rather make a one-off payment:
 - Donate by wire transfer: contact accounting@sfconservancy.org for wire transfer details.
 
 Homebrew is a member of the [Software Freedom Conservancy](https://sfconservancy.org) which provides us with an ability to receive tax-deductible, Homebrew earmarked donations (and [many other services](https://sfconservancy.org/members/services/)). Software Freedom Conservancy, Inc. is a 501(c)(3) organization incorporated in New York, and donations made to it are fully tax-deductible to the extent permitted by law.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Sponsors
 Our Xserve ESXi boxes for CI are hosted by [MacStadium](https://www.macstadium.com).
@@ -99,3 +123,5 @@ Secure password storage and syncing is provided by [1Password for Teams](https:/
 Homebrew is a member of the [Software Freedom Conservancy](https://sfconservancy.org).
 
 [![Software Freedom Conservancy](https://sfconservancy.org/img/conservancy_64x64.png)](https://sfconservancy.org)
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
