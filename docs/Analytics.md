@@ -1,6 +1,10 @@
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 # Anonymous Aggregate User Behaviour Analytics
 
 Homebrew has begun gathering anonymous aggregate user behaviour analytics and reporting these to Google Analytics. You will be notified the first time you run `brew update` or install Homebrew.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Why?
 Homebrew is provided free of charge and run entirely by volunteers in their spare time. As a result, we do not have the resources to do detailed user studies of Homebrew users to decide on how best to design future features and prioritise current work. Anonymous aggregate user analytics allow us to prioritise fixes and features based on how, where and when people use Homebrew. For example:
@@ -8,8 +12,12 @@ Homebrew is provided free of charge and run entirely by volunteers in their spar
 - If a formula is widely used and is failing often it will enable us to prioritise fixing that formula over others.
 - Collecting the OS version allows us to decide what versions of macOS to prioritise and support and identify build failures that occur only on single versions.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## How Long?
 Homebrew's anonymous user and event data have a 14 month retention period. This is the [lowest possible value for Google Analytics](https://support.google.com/analytics/answer/7667196).
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## What?
 Homebrew's analytics record some shared information for every event:
@@ -38,14 +46,22 @@ It is impossible for the Homebrew developers to match any particular event to an
 
 As far as we can tell it would be impossible for Google to match the randomly generated Homebrew-only analytics user ID to any other Google Analytics user ID. If Google turned evil the only thing they could do would be to lie about anonymising IP addresses and attempt to match users based on IP addresses.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## When/Where?
 Homebrew's analytics are sent throughout Homebrew's execution to Google Analytics over HTTPS.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Who?
 Summaries of installation and error analytics are publicly available [here](https://brew.sh/analytics/). A JSON API is also available.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ## How?
 The code is viewable in [`analytics.rb`](https://github.com/Homebrew/brew/blob/master/Library/Homebrew/utils/analytics.rb) and [`analytics.sh`](https://github.com/Homebrew/brew/blob/master/Library/Homebrew/utils/analytics.sh). They are done in a separate background process and fail fast to avoid delaying any execution. They will fail immediately and silently if you have no network connection.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ## Opting out
 Homebrew analytics helps us maintainers and leaving it on is appreciated. However, if you want to opt out of Homebrew's analytics, you can set this variable in your environment:
@@ -59,3 +75,5 @@ Alternatively, this will prevent analytics from ever being sent:
 ```sh
 brew analytics off
 ```
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
