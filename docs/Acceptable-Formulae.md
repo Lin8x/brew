@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 # Acceptable Formulae
 
 Some formulae should not go in
@@ -5,18 +7,28 @@ Some formulae should not go in
 additional [Interesting Taps and Forks](Interesting-Taps-and-Forks.md) and anyone can start their
 own!
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### Dupes in `homebrew/core`
 We now accept stuff that comes with macOS as long as it uses `keg_only :provided_by_macos` to be keg-only by default.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### Versioned formulae in `homebrew/core`
 We now accept versioned formulae as long as they [meet the requirements](Versions.md).
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ### We don’t like tools that upgrade themselves
 Software that can upgrade itself does not integrate well with Homebrew's own
 upgrade functionality. The self-update functionality should be disabled (if possible without complicating the formula).
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### We don’t like install scripts that download unversioned things
 We don't like install scripts that are pulling from the `master` branch of Git repositories or unversioned, unchecksummed tarballs. These should use `resource` blocks with specific revisions or checksummed tarballs instead. Note that we now allow tools like `cargo`, `gem` and `pip` to download specifically versioned libraries during installation.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ### We don’t like binary formulae
 Our policy is that formulae in the core tap
@@ -25,6 +37,8 @@ with an [OSI-approved license](https://opensource.org/licenses) and either built
 from source or produce cross-platform binaries (e.g. Java, Mono). Binary-only
 formulae should go to [homebrew/cask](https://github.com/Homebrew/homebrew-cask).
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### Stable versions
 Formulae in the core repository must have a stable version tagged by
 the upstream project. Tarballs are preferred to Git checkouts, and
@@ -32,6 +46,8 @@ tarballs should include the version in the filename whenever possible.
 
 We don’t accept software without a tagged version because they regularly break
 due to upstream changes and we can’t provide [bottles](Bottles.md) for them.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ### Niche (or self-submitted) stuff
 The software in question must:
@@ -55,21 +71,33 @@ include things that don't meet these criteria or reject things that do.
 Please trust that we need to use our discretion based on our experience
 running a package manager.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### Stuff that builds an `.app`
 Don’t make your formula build an `.app` (native macOS Application); we
 don’t want those things in Homebrew. Encourage upstream projects to build and support a `.app` that can be distributed by [homebrew/cask](https://github.com/Homebrew/homebrew-cask) (and used without it, too).
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### Stuff that builds a GUI by default (but doesn't have to)
 Make it build a command-line tool or a library by default and, if the GUI is useful and would be widely used, also build the GUI. Don’t build X11/XQuartz GUIs as they are a bad user experience on macOS.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ### Stuff that doesn't build with the latest, stable Xcode's Clang
 Clang is the default C/C++ compiler on macOS (and has been for a long time). Software that doesn't build with it hasn't been adequately ported to macOS.
 
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
+
 ### Stuff that requires heavy manual pre/post-install intervention
 We're a package manager so we want to do things like resolve dependencies and set up applications for our users. If things require too much manual intervention then they aren't useful in a package manager.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
 
 ### Sometimes there are exceptions
 Even if all criteria are met we may not accept the formula.
 Documentation tends to lag behind current decision-making. Although some
 rejections may seem arbitrary or strange they are based on years of
 experience making Homebrew work acceptably for our users.
+
+<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
