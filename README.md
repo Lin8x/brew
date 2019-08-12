@@ -3,8 +3,6 @@
 # <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="30" width="30"> &nbsp; Homebrew &nbsp; <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="30" width="30">
 [![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)
 
-<img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
-
 Features, usage and installation instructions are [summarised on the homepage](https://brew.sh). Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is [explained here](https://docs.brew.sh/Formula-Cookbook#homebrew-terminology).
 
 <img src="https://raw.githubusercontent.com/Lin8x/brew/master/images/bar.png" width="100%" height="5">
