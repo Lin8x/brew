@@ -1,4 +1,4 @@
-# <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="20" width="20"> Homebrew <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="20" width="20">
+# <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="20" width="20"> &nbsp; Homebrew &nbsp; <img src="https://brew.sh/assets/img/homebrew-256x256.png" height="20" width="20">
 [![GitHub release](https://img.shields.io/github/release/Homebrew/brew.svg)](https://github.com/Homebrew/brew/releases)
 
 Features, usage and installation instructions are [summarised on the homepage](https://brew.sh). Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is [explained here](https://docs.brew.sh/Formula-Cookbook#homebrew-terminology).
